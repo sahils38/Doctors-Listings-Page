@@ -99,7 +99,7 @@ export default function DoctorList({ filters }: DoctorListProps) {
   };
 
   useEffect(() => {
-    setCurrentPage(1); // Reset page to 1 when filters change
+    setCurrentPage(1); 
   }, [filters]);
 
   useEffect(() => {
@@ -191,7 +191,6 @@ export default function DoctorList({ filters }: DoctorListProps) {
         </>
       )}
 
-      {/* Spinner animation keyframes */}
       <style>{`
         @keyframes spin {
           0% { transform: rotate(0deg); }
