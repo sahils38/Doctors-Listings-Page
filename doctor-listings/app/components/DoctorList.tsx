@@ -87,7 +87,7 @@ export default function DoctorList({ filters }: DoctorListProps) {
     params.append('limit', '4');
 
     try {
-      const res = await fetch(`http://localhost:5000/api/doctors?${params.toString()}`);
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/doctors?${params.toString()}`);
       const json = await res.json();
       setDoctors(json.data);
       setTotalPages(json.pagination.totalPages);
