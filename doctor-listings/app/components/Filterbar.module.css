@@ -1,0 +1,75 @@
+.sidebar {
+ 
+  padding: 20px;
+  background: white;
+  
+  overflow: hidden auto;
+  font-family: Arial, sans-serif;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sidebarTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.clearButton {
+  font-size: 13px;
+  color: #005f5f;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  text-decoration: underline;
+}
+
+.nearMeButton {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f0f7ff;
+  border: 1px solid #005f5f;
+  color: #005f5f;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.nearMeButton:hover {
+  background-color: #e6f0ff;
+}
+
+.filterGroup {
+  margin-bottom: 24px;
+}
+
+.filterTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.filterItem input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color:#005f5f;
+}

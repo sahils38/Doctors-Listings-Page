@@ -1,0 +1,159 @@
+/* Top Header Styles */
+.topHeader {
+    background-color: #005f5f;
+    color: white;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.topHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.topLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.topLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Header Styles */
+.headerContainer {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 20px;
+    height: 70px;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+/* Location Styles */
+.location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #005f5f;
+    min-width: 180px;
+}
+
+.locationIcon {
+    font-size: 24px;
+}
+
+.locationText p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.locationText h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Search Styles */
+.searchContainer {
+    position: relative;
+    flex-grow: 1;
+    max-width: 600px;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 20px;
+}
+
+.search {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0 20px 0 45px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search:focus {
+    border-color: #005f5f;
+}
+
+/* Login Button Styles */
+.loginButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #005f5f;
+    color: #005f5f;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    min-width: 140px;
+    justify-content: center;
+}
+
+.loginButton:hover {
+    background-color: #e6f9f9;
+}
+
+.userIcon {
+    font-size: 18px;
+}
+
+/* Main Navigation Styles */
+.mainNav {
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 20px;
+}
+
+.navLink {
+    color: #333;
+    text-decoration: none;
+    font-weight: 00;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.navLink:hover {
+    color: #005f5f;
+}
