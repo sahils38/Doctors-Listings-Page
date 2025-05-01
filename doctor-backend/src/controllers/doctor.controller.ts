@@ -54,8 +54,8 @@ export const listDoctors: RequestHandler = async (req, res) => {
       maxExperience,
       maxConsultationFee,
       minConsultationFee,
-      consultationType, // comma-separated (e.g., "online,hospital")
-      languages,        // comma-separated (e.g., "english,hindi")
+      consultationType, 
+      languages,        
       page = "1",
       limit = "10",
     } = req.query;
@@ -77,7 +77,7 @@ export const listDoctors: RequestHandler = async (req, res) => {
     }
     
 
-  // If minConsultationFee exists, filter with $gte
+  
   if (minConsultationFee !== undefined && maxConsultationFee !== undefined) {
     filters.consultationFee = {
       gte: Number(minConsultationFee),

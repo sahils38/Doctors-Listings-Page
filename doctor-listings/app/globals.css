@@ -14,6 +14,11 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
+    background-color: #fff;
+    color-scheme: light !important;
+    color: #000;
+  
 }
 
 body {

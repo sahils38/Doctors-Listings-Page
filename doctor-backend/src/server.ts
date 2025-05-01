@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
 
 async function startServer() {
   try {
-    // Test the database connection
+    
     await prisma.$connect();
     console.log('Connected to PostgreSQL database via Prisma');
 
@@ -21,10 +21,10 @@ async function startServer() {
   }
 }
 
-// Start the server
+
 startServer();
 
-// Handle shutdown gracefully
+
 process.on('SIGTERM', async () => {
   await prisma.$disconnect();
   process.exit(0);
