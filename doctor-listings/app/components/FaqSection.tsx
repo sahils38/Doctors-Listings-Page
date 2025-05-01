@@ -1,4 +1,4 @@
-// components/FaqSection.tsx
+
 import FaqItem from "./FaqItem";
 
 const faqData = [
